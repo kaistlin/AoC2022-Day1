@@ -14,7 +14,6 @@ namespace AoC
             string[] lines = System.IO.File.ReadAllLines
             (@"C:\Users\kaist\source\repos\AoC2022-Day1\day1input.txt");
             int[] elves = new int[lines.Length];
-            System.Console.WriteLine("Contents of writeLines2.txt =:");
             int i = 0;
             foreach (string line in lines)
             {
